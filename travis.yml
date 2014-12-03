@@ -5,4 +5,4 @@ php:
     - hhvm
  
 script: 
-    - phpunit --bootstrap notification/test/config.php notification/test/CNotifyTest.php
+    - phpunit --bootstrap test/config.php test/CNotifyTest.php
